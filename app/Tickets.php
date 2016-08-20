@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Tickets extends Model
 {
     protected $fillable = [
-        'name', 'status',
+        'name', 'status', 'type',
     ];
 }
